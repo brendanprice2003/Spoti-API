@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(50,50,50);
+    color: white;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#top {
+    top: 0;
+}
+
+#btn {
+    width: fit-content;
+    background-color: rgb(44, 44, 44);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    user-select: none;
+    opacity: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 240px 0;
+    margin-top: 50px;
+    width: 75%;
+    /* border: 1px solid red; */
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+    padding-left: 20%;
+    /* border: 1px solid purple; */
+}
+
+img {
+    width: 20%;
+}
+
+.textbg {
+    padding: 20px;
+    height: fit-content;
+    background-color: rgb(150, 150, 150, 0.2);
+    border-radius: 5px;
+}
+
+#songname {
+    font-size: 42px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#artistname {
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* img {
+    width: 40%;
+    height: 40%;
+    max-width: 320px;
+    margin-left: 100px;
+}
+
+#con {
+    display: flex;
+    gap: 40px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-family: 'Inter', sans-serif;
+}
+
+#songname {
+    width: 70%;
+}
+
+#artistname {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+} */
